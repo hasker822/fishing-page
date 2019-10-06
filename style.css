@@ -64,6 +64,9 @@ header .menuLink:last-child{
 .about .firstImg{
     width: 100%;
 }
+.about .menuLink{
+    padding: 0;
+}
 .about .box{
     justify-content:center;   
 }
