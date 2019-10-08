@@ -65,6 +65,9 @@ header .menuLink:last-child{
 .about .firstImg{
     width: 100%;
 }
+.about .img{
+    width: 100%;
+}
 .about .menuLink{
     padding: 0;
 }
@@ -93,6 +96,12 @@ footer .social-network i{
     font-size: 26px;
     width: 100%;
     margin-right: 10px;
+}
+.about .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 
@@ -132,8 +141,30 @@ footer .social-network i{
        }
 }
 @media screen and (min-width: 884px) {
-    .about .firstImg{
+    .about .img{
         width: 50%;
+    }
+}
+@media screen and (min-width: 800px){
+    .img{
+        width: 50%;
+        margin-right: 20px;
+    }
+    .text{
+        width: 50%;
+        margin: 0 !important;
+        font-size: 24px;
+    }
+}
+@media screen and (max-width: 800px){
+    .container{
+        flex-direction: column;
+        margin: 0;
+    }
+}
+@media screen and (max-width: 1074px){
+    .container .text{
+        font-size: 18px;
     }
 }
 
